@@ -1,0 +1,9 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.widget p {
+  margin-bottom: 16px;
+}

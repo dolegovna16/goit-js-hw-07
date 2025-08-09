@@ -1,0 +1,22 @@
+.login-form {
+  margin-top: 15px;
+}
+
+input {
+  font-size: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 16px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button {
+  margin-top: 16px;
+}
