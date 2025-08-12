@@ -14,4 +14,4 @@ form.addEventListener('submit', event => {
   console.log(info);
 
   form.reset();
-});
+}); 
