@@ -6,8 +6,8 @@ Array.from(loginForm.elements).forEach(
 loginForm.addEventListener("submit", (e) => {
   e.preventDefault();
   if (
-    loginForm.elements[0].value === "" ||
-    loginForm.elements[1].value === ""
+    loginForm.elements[0].value.trim() === "" ||
+    loginForm.elements[1].value.trim() === ""
   ) {
     alert("All form fields must be filled in");
     return;
